@@ -9,7 +9,7 @@ class Car {
 };
 
 void Car::printHello() {
-    std::cout << "Hello my Class!!\n";
+    std::cout << "Hello my Car!!\n";
 }
 
 
