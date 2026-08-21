@@ -25,6 +25,7 @@ std::string Car::color(const std::string& color) {
 int main() {
 
     std::string color_user;
+    std::cout << "Enter input color: ";
     std::cin >> color_user;
 
     Car BMW;
