@@ -44,6 +44,6 @@ int main() {
 
     std::cout << "Всего игр: " << Game::count;
 
-    
+    // Выводим
     return 0;
 }
