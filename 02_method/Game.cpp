@@ -42,11 +42,11 @@ int main() {
     Game myGame(title, genre, rating);
     Game myGame1(title1, genre1, rating1);
 
-    std::cout << "Всего игр: " << Game::count;
-
     // Выводим
 
     myGame.info();
     myGame1.info();
+
+    std::cout << "Всего игр: " << Game::count;
     return 0;
 }
