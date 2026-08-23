@@ -8,7 +8,7 @@ class Game {
     public:
         std::string title;
         std::string genre;
-    statis int count;
+    static int count;
 
     Game(std::string title, std::string genre, unsigned int rating) {
         this->title = title;
@@ -47,5 +47,6 @@ int main() {
     // Выводим
 
     myGame.info();
+    myGame1.info();
     return 0;
 }
