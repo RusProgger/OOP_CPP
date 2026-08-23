@@ -22,7 +22,7 @@ class Game {
     }
 
     void info() {
-        std::cout << "Игра: " << title << " | " << "Жанр: " << genre << " | " << "Рейтинг: " << rating << "\n"
+        std::cout << "Игра: " << title << " | " << "Жанр: " << genre << " | " << "Рейтинг: " << rating << "\n";
     }
 
 };
