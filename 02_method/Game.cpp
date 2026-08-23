@@ -3,11 +3,11 @@
 
 class Game {
     private:
-        std::string title;
-        std::string genre;
         unsigned int rating;
 
     public:
+        std::string title;
+        std::string genre;
     statis int count;
 
     Game(std::string title, std::string genre, unsigned int rating) {
@@ -17,9 +17,13 @@ class Game {
         count++;
     }
 
-    
+    int get_rating() {
+        return rating;
+    }
 
-
+    void info() {
+        std::cout << "Игра: " << title << " | " << "Жанр: " << genre << " | " << "Рейтинг: " << rating << "\n"
+    }
 
 };
 
@@ -27,7 +31,19 @@ int Game::count = 0;
 
 int main() {
 
+    
 
+    int rating, rating1;
+    std::string title, title1, genre, genre1;
 
+    std::cin >> title >> genre >> rating;
+    std::cin >> title1 >> genre1 >> rating1;
+
+    Game myGame(title, genre, rating);
+    Game myGame1(title1, genre1, rating1);
+
+    std::cout << "Всего игр: " << Game::count;
+
+    
     return 0;
 }
