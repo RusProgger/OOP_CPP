@@ -65,7 +65,10 @@ int main() {
     Smartphone::Phone(brand, storage, battery);
     Smartphone::Phone1(brand, storage, battery);
 
-    
+    Phone.info();
+    Phone1.info();
+
+    std::cout <<
 
     return 0;
 }
