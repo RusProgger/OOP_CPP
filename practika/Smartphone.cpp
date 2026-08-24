@@ -16,7 +16,7 @@ class Smartphone {
             count++;
         }
         
-    int set_battery(int battery) {
+    void set_battery(int battery) {
         if(battery > 0 && battery <= 100) {
             this->battery = battery;
         } else {
@@ -24,7 +24,7 @@ class Smartphone {
         }
     }
 
-    int set_storage(int storage) {
+    void set_storage(int storage) {
         if(storage > 0) {
             this->storage = storage;
         }else {
