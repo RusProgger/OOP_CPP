@@ -63,6 +63,8 @@ int main() {
     std::cin >> brand1 >> storage1 >> battery1;
     
     Smartphone::Phone(brand, storage, battery);
+    Smartphone::Phone1(brand, storage, battery);
+
     
 
     return 0;
