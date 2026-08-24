@@ -62,6 +62,7 @@ int main() {
     std::cin >> brand >> storage >> battery;
     std::cin >> brand1 >> storage1 >> battery1;
     
+    
     Smartphone Phone(brand, storage, battery);
     Smartphone Phone1(brand1, storage1, battery1);
 
