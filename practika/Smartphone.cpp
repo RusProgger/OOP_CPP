@@ -44,7 +44,9 @@ class Smartphone {
         return battery;
     }
 
-
+    void info() {
+        std::cout << "Смартфон: " << brand << " | " << "Память: " << storage << " | " << "Заряд: " << battery << "%\n";
+    }
 
 };
 
@@ -54,6 +56,14 @@ int Smartphone::count = 0;
 
 int main() {
 
+    int storage, storage1, battery, battery1;
+    std::string brand, brand1;
+
+    std::cin >> brand >> storage >> battery;
+    std::cin >> brand1 >> storage1 >> battery1;
+    
+    Smartphone::Phone(brand, storage, battery);
+    
 
     return 0;
 }
