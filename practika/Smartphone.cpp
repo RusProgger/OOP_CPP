@@ -68,7 +68,7 @@ int main() {
     Phone.info();
     Phone1.info();
 
-    std::cout <<
+    std::cout << "Всего смартфонов: " << Smartphone::count << "\n";
 
     return 0;
 }
