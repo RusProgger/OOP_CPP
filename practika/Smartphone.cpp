@@ -8,10 +8,12 @@ class Smartphone {
         int battery;
 
     public:
+        static int count;
         Smartphone(std::string brand, int storage, int battery) {
             this->brand = brand;
             this->storage = storage;
             this->battery = battery;
+            count++;
         }
         
     int set_battery(int battery) {
@@ -22,9 +24,32 @@ class Smartphone {
         }
     }
 
-    
+    int set_storage(int storage) {
+        if(storage > 0) {
+            this->storage = storage;
+        }else {
+            std::cout << "Ошибка: память должна быть больше 0\n";
+        }
+    }
+
+    std::string get_brand() {
+        return brand;
+    }
+
+    int get_storage() {
+        return storage;
+    }
+
+    int get_battery() {
+        return battery;
+    }
+
+
+
 };
 
+
+int Smartphone::count = 0;
 
 
 int main() {
