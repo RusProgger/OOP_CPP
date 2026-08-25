@@ -44,7 +44,7 @@ int main() {
 
     Book book("Гарри Поттер", "Роулинг", 500);
     Book book2("Орхидея", "Руссо", 120);
-
+    Book book3("Корона", "Майкл", 170);
 
     book.info();
     book2.info();
