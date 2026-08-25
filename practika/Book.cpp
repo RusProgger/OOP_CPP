@@ -1,5 +1,12 @@
 #include <iostream>
 #include <string>
+#include <windows.h>
+
+
+void locale() {
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);;
+}
 
 
 class Book {
@@ -40,7 +47,10 @@ class Book {
         }
 };
 
+
 int main() {
+
+    locale();
 
     Book book("Гарри Поттер", "Роулинг", 500);
     Book book2("Орхидея", "Руссо", 120);
@@ -48,5 +58,6 @@ int main() {
 
     book.info();
     book2.info();
+    book3.info();
     return 0;
 }
