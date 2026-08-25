@@ -2,7 +2,7 @@
 #include <string>
 #include <windows.h>
 
-
+// Add locale
 void locale() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);;
