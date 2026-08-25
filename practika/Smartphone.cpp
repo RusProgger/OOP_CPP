@@ -20,7 +20,7 @@ class Smartphone {
         if(battery > 0 && battery <= 100) {
             this->battery = battery;
         } else {
-            std::cout << "Ошибка: заряд должен быть от 0 до 100\n";
+            std::cout << "Ошибка: Заряд должен быть от 0 до 100\n";
         }
     }
     // setter
