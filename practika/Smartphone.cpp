@@ -23,7 +23,7 @@ class Smartphone {
             std::cout << "Ошибка: заряд должен быть от 0 до 100\n";
         }
     }
-
+    // setter
     void set_storage(int storage) {
         if(storage > 0) {
             this->storage = storage;
@@ -31,7 +31,7 @@ class Smartphone {
             std::cout << "Ошибка: память должна быть больше 0\n";
         }
     }
-
+    
     std::string get_brand() {
         return brand;
     }
