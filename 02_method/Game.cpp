@@ -8,6 +8,8 @@ class Game {
     public:
         std::string title;
         std::string genre;
+
+        // count 
     static int count;
 
     Game(std::string title, std::string genre, unsigned int rating) {
