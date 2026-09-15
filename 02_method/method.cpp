@@ -21,7 +21,7 @@ int main() {
     // Обьявление обекта класса 
 
     Person Alex;
-    Alex.name = "Alex";
+    Alex.name = "Denis";
 
     Alex.printMessage();
 
