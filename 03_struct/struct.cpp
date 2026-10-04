@@ -15,8 +15,10 @@ int main() {
     s1.name = "Alex";
     s1.nikName = "Alexandro";
 
-    std::cout << si.name << "\n";
 
+    std::cout << si.name << "\n";
+    std::cout << si.nikName << "\n";
+    std::cout << si.nikName << "\n";
 
 
     std::cin.get();
