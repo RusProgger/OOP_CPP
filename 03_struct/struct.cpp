@@ -4,10 +4,13 @@
 
 struct User {
     std::string name;
+    std::string userName;
+    std::string nikName;
 };
 
 int main() {
 
+    
 
 
 
