@@ -10,6 +10,11 @@ struct User {
 
 int main() {
 
+    User s1;
+
+    s1.name = "Alex";
+    s1.nikName = "Alexandro";
+
     
 
 
