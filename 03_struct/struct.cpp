@@ -22,7 +22,11 @@ int main() {
     std::cout << si.nikName << "\n";
 
 
-    
+    // вариант 2
+
+    User s2 = {"Denis", "Marko", "Techno"};
+
+    // вывод 
 
     std::cin.get();
     return 0;
