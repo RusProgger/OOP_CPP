@@ -9,7 +9,7 @@ struct User {
 };
 
 int main() {
-
+    // Вариант 1 
     User s1;
 
     s1.name = "Alex";
@@ -21,6 +21,8 @@ int main() {
     std::cout << si.userName << "\n";
     std::cout << si.nikName << "\n";
 
+
+    
 
     std::cin.get();
     return 0;
