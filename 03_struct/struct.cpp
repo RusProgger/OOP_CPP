@@ -14,12 +14,12 @@ int main() {
 
     s1.name = "Alex";
     s1.nikName = "Alexandro";
-    S1.userName = "Alento";
+    s1.userName = "Alento";
 
 
-    std::cout << si.name << "\n";
-    std::cout << si.userName << "\n";
-    std::cout << si.nikName << "\n";
+    std::cout << s1.name << "\n";
+    std::cout << s1.userName << "\n";
+    std::cout << s1.nikName << "\n";
 
 
     // вариант 2
@@ -27,6 +27,10 @@ int main() {
     User s2 = {"Denis", "Marko", "Techno"};
 
     // вывод 
+
+    std::print("Вариант второй: \nИмя:{} {} {}", s2.name, s2.userName, s2.nikName);
+
+    
 
     std::cin.get();
     return 0;
